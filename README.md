@@ -1,2 +1,2 @@
 # python-examples
-python concepts and examples
+python examples by concepts
