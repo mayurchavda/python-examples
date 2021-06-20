@@ -53,7 +53,7 @@ from email.mime.text import MIMEText
 import smtplib
 msg=MIMEText('hi, send by python.....','plain','utf-8')
 from_addr='mady00567@gmail.com'
-password=''
+password='***************'
 to_addr='user@gmail.com'
 s=smtplib.SMTP_SSL('smtp.gmail.com')
 s.login(from_addr,password)

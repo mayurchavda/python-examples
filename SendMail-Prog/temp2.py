@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 def send_mail(subject="Firmware Upgrade Notification", mymsg="Upgrade for server with IP 192.168.0.5 success"):
     fromaddr = "Octopus_Notification@radisys.com"
     toaddr = "naga.manjunath@radisys.com, Laxmi.Sogani@radisys.com, Chaithanya.Vuppara@radisys.com"
-    pass1 = 'abc123'
+    pass1 = '********'
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -23,7 +23,4 @@ def send_mail(subject="Firmware Upgrade Notification", mymsg="Upgrade for server
     server.quit()
 
 
-send_mail("Test Mail",""Firmware
-
-
-upgrad by mayur", "Test mail")
+send_mail("Test Mail",""Firmware upgrad by mayur", "Test mail")
